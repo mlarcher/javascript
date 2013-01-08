@@ -436,11 +436,13 @@
 
     // good
     function() {
+       var name;
+    
       if (!arguments.length) {
         return false;
       }
 
-      var name = getName();
+      name = getName();
 
       return true;
     }
