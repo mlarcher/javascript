@@ -592,14 +592,14 @@
 
 ## <a name='blocks'>Blocks</a>
 
-  - Use braces with all multi-line blocks.
+  - Always use braces
 
     ```javascript
     // bad
     if (test)
       return false;
 
-    // good
+    // bad
     if (test) return false;
 
     // good
