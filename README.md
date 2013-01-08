@@ -1113,7 +1113,7 @@
     };
     ```
 
-  - Methods can return `this` to help with method chaining.
+  - Methods should return `this` to help with method chaining.
 
     ```javascript
     // bad
